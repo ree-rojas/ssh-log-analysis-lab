@@ -24,22 +24,7 @@ The lab focuses on practical cybersecurity concepts involving:
 
 # Lab Architecture
 
-```text
-┌──────────────────────────────────┐
-│ Linux Host Machine               │
-│ IP: 192.168.x.x                  │
-│ SSH Forward: 2222/TCP → 22/TCP   │
-└──────────────┬───────────────────┘
-               │
-               │ NAT / Port Forwarding
-               │
-┌──────────────▼───────────────────┐
-│ Ubuntu Server VM                 │
-│ Interface: enp0s3                │
-│ IP: 10.0.2.15                    │
-│ SSH Service: 22/TCP              │
-└──────────────────────────────────┘
-```
+![Architecture](images/diagram.png)
 
 ---
 
@@ -144,6 +129,8 @@ The simulation was executed using a Bash loop combined with `sshpass`.
 
 ## Attack Simulation
 
+![Brute Force](images/bruteforce.png)
+
 ```bash
 for i in {1..40}; do sshpass -p "123" ssh -o StrictHostKeyChecking=no -p 2222 bruteforce2@localhost; done
 ```
@@ -158,6 +145,8 @@ During the simulation, the server generated events such as:
 ---
 
 ## IP Correlation and Counting
+
+![Logs](images/logs.png)
 
 ```bash
 grep "Failed password" /var/log/auth.log | awk '/from/ {print $(NF-3)}' | sort | uniq -c
