@@ -155,7 +155,7 @@ grep "Failed password" /var/log/auth.log | awk '/from/ {print $(NF-3)}' | sort |
 Example output:
 
 ```text
-48 10.0.2.2
+129 10.0.2.2
 ```
 
 The IP `10.0.2.2` corresponds to the internal NAT interface created by VirtualBox.
