@@ -221,3 +221,9 @@ The project also reinforced core cybersecurity concepts related to:
 - network isolation,
 - log investigation,
 - and basic SOC operational workflows.
+
+---
+
+- ## Additional Documentation
+
+- [Fail2Ban Integration](docs/fail2ban.md)
