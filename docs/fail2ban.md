@@ -130,7 +130,7 @@ This command displays:
 - historical bans,
 - and currently blocked IP addresses.
 
-![Fail2Ban SSH Jail Status](images/fail2ban-status.png)
+![Fail2Ban SSH Jail Status](../images/fail2ban-status.png)
 
 ---
 
@@ -180,7 +180,7 @@ kex_exchange_identification: read: Connection reset by peer
 
 This occurred because the attacking IP address was already under active firewall restriction.
 
-![Automated SSH Blocking](images/fail2ban-block.png)
+![Automated SSH Blocking](../images/fail2ban-block.png)
 
 ---
 
@@ -198,7 +198,7 @@ The log records:
 - unban events,
 - and jail activity.
 
-![Fail2Ban Log Monitoring](images/fail2ban-log.png)
+![Fail2Ban Log Monitoring](../images/fail2ban-log.png)
 
 ---
 
