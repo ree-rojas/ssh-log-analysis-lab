@@ -1,5 +1,3 @@
----
-
 # Fail2Ban Integration and Automated SSH Protection
 
 After validating manual SSH log analysis and brute force detection, the environment was extended using Fail2Ban to automate defensive responses against suspicious authentication behavior.
@@ -229,5 +227,3 @@ This immediately:
 - Authentication monitoring
 - Temporary IP banning
 - Real-time defensive response
-
----
