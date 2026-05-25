@@ -35,7 +35,7 @@ Command used:
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 ```
 
-![backup-sshd-config](images/backup-sshd-config.png)
+![Backup](images/backup-sshd-config.png)
 
 ---
 
@@ -136,7 +136,7 @@ sudo systemctl status ssh
 
 **The `reload` command was used instead of `restart` to apply the new configuration without interrupting active SSH sessions.**
 
-![ssh-service-running](images/ssh-service-running.png)
+![Service Running](images/ssh-service-running.png)
 
 ---
 
@@ -175,8 +175,6 @@ Important distinction:
 
 - `id_ed25519.pub`
   → public key (safe to distribute)
-
-![ssh-key-generation](images/ssh-key-generation.png)
 
 ---
 
@@ -229,8 +227,6 @@ The objective is to eliminate:
 - credential spraying,
 - weak password abuse,
 - and basic automated brute force attacks.
-
-![password-authentication-disabled](images/password-authentication-disabled.png)
 
 ---
 
