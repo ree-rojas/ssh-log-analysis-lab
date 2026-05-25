@@ -35,7 +35,7 @@ Command used:
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 ```
 
-![Backup](images/backup-sshd-config.png)
+![Backup](../images/backup-sshd-config.png)
 
 ---
 
@@ -136,7 +136,7 @@ sudo systemctl status ssh
 
 **The `reload` command was used instead of `restart` to apply the new configuration without interrupting active SSH sessions.**
 
-![Service Running](images/ssh-service-running.png)
+![Service Running](../images/ssh-service-running.png)
 
 ---
 
