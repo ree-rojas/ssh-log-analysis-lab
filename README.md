@@ -227,3 +227,4 @@ The project also reinforced core cybersecurity concepts related to:
 - ## Additional Documentation
 
 - [Fail2Ban Integration](docs/fail2ban.md)
+- [SSH Hardening](docs/ssh-hardening.md)
