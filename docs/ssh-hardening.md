@@ -136,7 +136,7 @@ sudo systemctl status ssh
 
 **The `reload` command was used instead of `restart` to apply the new configuration without interrupting active SSH sessions.**
 
-![Service Running](../images/ssh-service-running.png)
+![Service Running](../images/ssh-service-runnig.png)
 
 ---
 
