@@ -15,7 +15,7 @@ The objective was to understand:
 
 ---
 
-# Laboratory Topology
+# New Laboratory Topology
 
 The laboratory environment was migrated from a simple NAT forwarding model to a Host-Only segmented network in order to simulate a more realistic infrastructure for enumeration, firewall analysis, and offensive security testing.
 
