@@ -108,8 +108,6 @@ After the migration, the host machine accessed the VM directly through its real 
 
 SSH key authentication remained enabled.
 
-![Direct SSH Host-Only](../images/direct-ssh-hostonly.png)
-
 ---
 
 # Initial UFW Status
@@ -121,8 +119,6 @@ Command used:
 ```bash
 sudo ufw status verbose
 ```
-
-![Initial UFW Status](../images/ufw-inactive-status.png)
 
 ---
 
@@ -141,8 +137,6 @@ Firewall rules were listed using:
 ```bash
 sudo ufw status numbered
 ```
-
-![Allow SSH 22](../images/ufw-allow-22.png)
 
 ---
 
@@ -165,8 +159,6 @@ Rules were verified again:
 ```bash
 sudo ufw status numbered
 ```
-
-![Default Firewall Policies](../images/ufw-default-policies.png)
 
 ---
 
@@ -262,7 +254,7 @@ A simple Python HTTP service was created to simulate a real exposed application.
 An HTML file was created:
 
 ```bash
-echo "lab funcionando" > index.html
+echo "SOC LAB Working" > index.html
 ```
 
 The HTTP server was started using:
