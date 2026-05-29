@@ -18,17 +18,7 @@ Communication between the machines occurs through a VirtualBox Internal Network.
 
 ## Topology Representation
 
-![Network Topology](../images/topologia-router.png)
-
----
-
-# Machine Structure
-
-| Machine       | Role                | IP Address |
-| ------------- | ------------------- | ---------- |
-| Router        | Gateway and NAT     | 10.0.0.1   |
-| Ubuntu Server | Linux Server        | 10.0.0.2   |
-| Wazuh SIEM    | Monitoring and SIEM | 10.0.0.3   |
+![Network Topology](../images/updated-topology.png)
 
 ---
 
@@ -160,8 +150,6 @@ ip a
 ip r
 ```
 
-![Ubuntu Netplan Configuration](../images/ubuntu-netplan.png)
-
 ---
 
 # Wazuh SIEM Configuration
@@ -271,8 +259,6 @@ The test succeeded after:
 
 * enabling IP forwarding;
 * configuring MASQUERADE.
-
-![External Ping Test](../images/ping-externo.png)
 
 ---
 
@@ -400,14 +386,7 @@ The forwarding rule redirects connections from the host machine to the router's 
 
 The following rule was configured under:
 
-`VirtualBox → Router VM → Settings → Network → Adapter 1 (NAT) → Advanced → Port Forwarding`
-
-| Field      | Value      |
-| ---------- | ---------- |
-| Name       | SSH-Router |
-| Protocol   | TCP        |
-| Host Port  | 2222       |
-| Guest Port | 22         |
+`VirtualBox → Router VM → Settings → Network → Adapter 1 (NAT) → Port Forwarding`
 
 The `Guest IP` field was intentionally left blank because the forwarding targets the VM itself.
 
@@ -446,10 +425,6 @@ ssh username@10.0.0.2
 This approach resembles a simplified bastion/jump-host architecture commonly used in real-world environments.
 
 The router now acts as a controlled administrative gateway between the host machine and the isolated internal network.
-
----
-
-![SSH Access Through Router](../images/router/router-ssh-access.png)
 
 ---
 
