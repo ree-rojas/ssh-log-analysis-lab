@@ -392,7 +392,7 @@ The `Guest IP` field was intentionally left blank because the forwarding targets
 
 ---
 
-![VirtualBox Port Forwarding Configuration](../images/router/port-forwarding-config.png)
+![VirtualBox Port Forwarding Configuration](../images/port-forwarding-config.png)
 
 ---
 
