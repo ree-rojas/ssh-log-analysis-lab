@@ -1,21 +1,19 @@
 # SSH Log Analysis Lab - Ubuntu Server
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Protection-Fail2Ban-red?style=for-the-badge">
+  
   <img src="https://img.shields.io/badge/Linux-Ubuntu_Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
-
-  <img src="https://img.shields.io/badge/Networking-Routing_&_NAT-00599C?style=for-the-badge&logo=cisco&logoColor=white">
-
-  <img src="https://img.shields.io/badge/Security-SSH_Hardening-2E8B57?style=for-the-badge&logo=openssh&logoColor=white">
 
   <img src="https://img.shields.io/badge/Firewall-UFW_&_IPTables-orange?style=for-the-badge&logo=linux&logoColor=white">
 
+  <img src="https://img.shields.io/badge/Security-SSH_Hardening-2E8B57?style=for-the-badge&logo=openssh&logoColor=white">
+
+  <img src="https://img.shields.io/badge/Networking-Routing_&_NAT-00599C?style=for-the-badge&logo=cisco&logoColor=white">
+
   <img src="https://img.shields.io/badge/Monitoring-Wazuh_SIEM-026C9C?style=for-the-badge">
 
-  <img src="https://img.shields.io/badge/Protection-Fail2Ban-red?style=for-the-badge">
-
-  <img src="https://img.shields.io/badge/Access-Port_Forwarding-blueviolet?style=for-the-badge">
-
-  <img src="https://img.shields.io/badge/Architecture-Segmented_Network-darkgreen?style=for-the-badge">
+  
 </p>
 
 ---
