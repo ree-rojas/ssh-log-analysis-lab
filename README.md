@@ -230,3 +230,4 @@ The project also reinforced core cybersecurity concepts related to:
 - [SSH Hardening](docs/ssh-hardening.md)
 - [UFW](docs/ufw.md)
 - [SIEM](docs/siem.md)
+- [Router](docs/router.md)
